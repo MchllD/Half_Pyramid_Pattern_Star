@@ -15,3 +15,5 @@
 def print_downward_half_pyramid(rows):
     # create outer loop for rows (starting from the given number of rows and decreasing)
     for i in range(rows, 0, -1):
+        # Inner loop for printing '*' based on the current row value
+        for j in range(i):
