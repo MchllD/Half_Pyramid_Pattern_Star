@@ -23,3 +23,5 @@ def print_downward_half_pyramid(rows):
         
 # Set the number of rows for the downward half-pyramid
 num_rows = 5
+
+print_downward_half_pyramid(num_rows)
